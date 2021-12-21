@@ -269,6 +269,18 @@ The following software programs need to be installed:
       dockter/go-xyzzy
     ```
 
+1. Run docker container.
+   Example:
+
+    ```console
+    docker run \
+      --env XYZZY_NAME=Mary \
+      --env XYZZY_FILE=/app/example.json \
+      --rm \
+      --volume ${GIT_REPOSITORY_DIR}:/app \
+      dockter/go-xyzzy
+    ```
+
 ## References
 
 1. [Using Go Modules](https://blog.golang.org/using-go-modules)
