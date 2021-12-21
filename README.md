@@ -92,6 +92,14 @@ The following software programs need to be installed:
 
 ### Build
 
+1. :thinking: **Optional:**
+   Set Hello name.
+   Example:
+
+    ```console
+    export HELLO_NAME=Bob
+    ```
+
 1. Build.
    Example:
 
@@ -104,6 +112,22 @@ The following software programs need to be installed:
    There will be binaries for the linux, macOS (darwin), and windows platforms.
 
 ### Run
+
+1. :thinking: **Optional:**
+   Set Hello name.
+   Example:
+
+    ```console
+    export XYZZY_NAME=Mary
+    ```
+
+1. :thinking: **Optional:**
+   Set Hello name.
+   Example:
+
+    ```console
+    export XYZZY_FILE=${GIT_REPOSITORY_DIR}/example.json
+    ```
 
 1. Run.
    Example:
